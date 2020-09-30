@@ -1,0 +1,39 @@
+@import '../fonts/stylesheet.css';
+@import './reset.css';
+@import './bootstrap-grid.css';
+
+$white: #FFFFFF;
+$text-top-color: #6C6C6C;
+$text-color:#8B8B8B;
+$p-color:#BCE0FF;
+$s-color:#2699FB;
+$border-color:#707070;
+$border-shadow-color:#00000052;
+$footer-header-shadow-color:#00000029;
+$input-color:#989898;
+
+a {
+  text-decoration: none;
+}
+
+// HEADER[START]
+header {
+  background-color: $p-color;
+  padding: 50px 100px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+
+  li {
+    margin-right: 2.604166666666667%;
+  }
+}
+
+// HEADER[END]
+
+body {
+  color: $text-color;
+  font-family: 'playfair_displayblack';
+}
